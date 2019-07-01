@@ -1,0 +1,74 @@
+Practical Task 4: In-Memory Databases On Modern Hardware
+
+1. Task
+
+Implement TPC-H Query 1, 5, and 6 on a column store using a TPC-H database of Scale Factor 1 as efficiently as possible. The implementation needs to be provided in the file "src/task4.cpp". The result of each query needs to be written in a prepared struct (e.g., tpch_query_1_result). The framework will automatically test the correctness of each query and will only output execution times if the result is correct. 
+
+2. Usage
+
+1) We first require a TPC-H database. We will work with a Scale Factor 1 database.
+
+  DOWNLOAD: 
+  a) Download the zip file: https://tubcloud.tu-berlin.de/s/qGkDHZjX6TxfWsV
+  b) Unpack the zip file in the main directory of this project.
+
+ OR
+
+  MANUAL SETUP (Scale Factors different than 1):
+  If you want to test out larger scale factors, you need to generate a TPC-H database using the dbgen tool from the TPC-H benchmark. 
+  Perform the following steps to download, build, and use the TPC-H data generator:
+  a) git clone git@github.com:electrum/tpch-dbgen.git
+  b) cd tpch-dbgen/
+  c) make
+  d) ./dbgen -s 1 
+  e) Move these files to a directory tpch_sf1 in your project folder
+   (cd .. && mkdir tpch_sf1 && mv tpch-dbgen/*.tbl tpch_sf1)
+  NOTE: if the build via make fails, please consult the file "tpch-dbgen/makefile". Depending on your platform, the variable MACHINE needs to be set to LINUX, WIN32, or MAC.
+  NOTE: for documentation of how to use the tool, please refer to tpch-dbgen/README  
+
+
+2) Compile the tool by executing 'cmake' in a terminal to generate a build system. Built the project after that by typing 'make'. In case the boost libraries are not found, install them on your machine.
+  mkdir build
+  cd build/
+  cmake -DCMAKE_BUILD_TYPE=Release ..
+  make all 
+
+  Use brew on MacOS to install dependencies: brew install gcc --without-multilib && brew install cmake boost
+  Use gcc on MacOS to get OpenMP working: CC=/usr/local/opt/gcc/bin/gcc-7 CXX=/usr/local/opt/gcc/bin/g++-7 cmake -DCMAKE_BUILD_TYPE=Release ..
+
+
+3) Execute the tool by typing the following commands in your terminal: 
+  ./framework ../tpch_sf1/
+
+4) The execution time for each query is measured automatically and written to standard output. You can extract the execution times automatically by writing all output to a file:
+  ./framework ../tpch_sf1/ > output.logfile
+  Then, you can extract the timings for each query using the tools grep and awk in a terminal:
+  cat output.log | grep "Time TPC-H Query 1" | awk '{print $5}' | sed -e 's/ms//g' > tpch_query1_runtime_ms.csv  
+  cat output.log | grep "Time TPC-H Query 5" | awk '{print $5}' | sed -e 's/ms//g' > tpch_query5_runtime_ms.csv  
+  cat output.log | grep "Time TPC-H Query 6" | awk '{print $5}' | sed -e 's/ms//g' > tpch_query6_runtime_ms.csv
+  paste tpch_query1_runtime_ms.csv tpch_query5_runtime_ms.csv tpch_query6_runtime_ms.csv > tpch_queries_runtime_ms.csv
+
+
+Copyright
+
+Copyright 2017 Sebastian Breß, German Research Center for Artificial
+Intelligence (DFKI GmbH), Technical University of Berlin
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

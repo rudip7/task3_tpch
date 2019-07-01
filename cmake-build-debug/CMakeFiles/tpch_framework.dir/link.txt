@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtpch_framework.a  CMakeFiles/tpch_framework.dir/src/queries.cpp.o CMakeFiles/tpch_framework.dir/src/query_tests.cpp.o CMakeFiles/tpch_framework.dir/src/tables.cpp.o CMakeFiles/tpch_framework.dir/src/task2.cpp.o CMakeFiles/tpch_framework.dir/src/task4.cpp.o CMakeFiles/tpch_framework.dir/src/time_measurement.cpp.o
+/usr/bin/ranlib libtpch_framework.a

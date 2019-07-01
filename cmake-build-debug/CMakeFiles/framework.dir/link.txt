@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG  -rdynamic CMakeFiles/framework.dir/main.cpp.o  -o framework libtpch_framework.a -lboost_filesystem -lboost_system 
