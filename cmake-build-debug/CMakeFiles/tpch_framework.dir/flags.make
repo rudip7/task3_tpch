@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include" 
+CXX_INCLUDES = -I"/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include" 
 

@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tpch_framework">
-				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug/libtpch_framework.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug/libtpch_framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include"/>
+					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -55,20 +55,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 tpch_framework"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 tpch_framework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tpch_framework/fast">
-				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug/libtpch_framework.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug/libtpch_framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include"/>
+					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -79,20 +79,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 tpch_framework/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 tpch_framework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="framework">
-				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug/framework" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug/framework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include"/>
+					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -103,20 +103,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 framework"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 framework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="framework/fast">
-				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug/framework" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug/framework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include"/>
+					<Add directory="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -127,53 +127,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 framework/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/tcph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 framework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/rudip/Documents/TUB-Master/Modern\ Hardware/task3_tpch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/queries.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/queries.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/query_tests.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/query_tests.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/tables.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/tables.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/task2.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/task2.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/task4.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/task4.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/include/time_measurement.hpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/include/time_measurement.hpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/main.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/main.cpp">
 			<Option target="framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/queries.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/queries.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/query_tests.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/query_tests.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/tables.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/tables.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/task2.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/task2.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/task4.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/task4.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/src/time_measurement.cpp">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/src/time_measurement.cpp">
 			<Option target="tpch_framework"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

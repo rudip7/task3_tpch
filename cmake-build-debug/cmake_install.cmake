@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph
+# Install script for directory: /mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/tcph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/rudip/Documents/TUB-Master/Modern Hardware/task3_tpch/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
